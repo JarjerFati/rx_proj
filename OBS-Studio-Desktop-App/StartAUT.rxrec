@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ea839873-c6ba-4e1b-ad00-2ca94b00cc1c"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="OBS_Studio_Desktop_App">
+	</codegen>
+	<variables>
+		<var
+		id="f46504f3-b62d-4741-b201-e85ae4b41afc"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\obs-studio\bin\64bit\obs64.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="2be028dd-fa0e-475f-9781-7db89ec15df4"
+	name="OBS_Studio_Desktop_AppRepository"
+	relativepath="OBS_Studio_Desktop_AppRepository.rxrep">
+		<codegen
+		classname="OBS_Studio_Desktop_AppRepository"
+		namespace="OBS_Studio_Desktop_App">
+		</codegen>
+		<rootfolder
+		id="e331a061-ea27-48fb-9fe5-14b9867b2ad5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

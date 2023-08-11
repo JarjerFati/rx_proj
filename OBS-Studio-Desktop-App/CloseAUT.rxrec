@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="63df05e9-8e0a-4246-a76c-d2dc692adcb3"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="OBS_Studio_Desktop_App">
+	</codegen>
+	<variables>
+		<var
+		id="146d07dc-dc32-4c4d-8077-9201120fb6d7"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="b669a041-bc9a-47c9-a68b-291001343496">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="2be028dd-fa0e-475f-9781-7db89ec15df4"
+	name="OBS_Studio_Desktop_AppRepository"
+	relativepath="OBS_Studio_Desktop_AppRepository.rxrep">
+		<codegen
+		classname="OBS_Studio_Desktop_AppRepository"
+		namespace="OBS_Studio_Desktop_App">
+		</codegen>
+		<rootfolder
+		id="e331a061-ea27-48fb-9fe5-14b9867b2ad5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

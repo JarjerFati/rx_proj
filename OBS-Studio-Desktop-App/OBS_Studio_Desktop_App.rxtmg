@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.7">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="736a3d99-47ca-4379-9b21-1f2c67e816c4"
+			name="OBS_Studio_Desktop_App">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="736a3d99-47ca-4379-9b21-1f2c67e816c4"
+			name="OBS_Studio_Desktop_App">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

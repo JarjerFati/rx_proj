@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+name="OBS-Studio-Desktop-AppRepository"
+id="2be028dd-fa0e-475f-9781-7db89ec15df4">
+  <codegen
+  classname="OBS-Studio-Desktop-AppRepository"
+  namespace="OBS_Studio_Desktop_App"/>
+  <rootfolder
+  name="Root"
+  id="e331a061-ea27-48fb-9fe5-14b9867b2ad5"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+      <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>

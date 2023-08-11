@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="91b5bcd6-c81e-49a6-a852-ac6b0e3410f0"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="OBS_Studio_Desktop_App">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="2be028dd-fa0e-475f-9781-7db89ec15df4"
+	name="OBS_Studio_Desktop_AppRepository"
+	relativepath="OBS_Studio_Desktop_AppRepository.rxrep">
+		<codegen
+		classname="OBS_Studio_Desktop_AppRepository"
+		namespace="OBS_Studio_Desktop_App">
+		</codegen>
+		<rootfolder
+		id="e331a061-ea27-48fb-9fe5-14b9867b2ad5"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
